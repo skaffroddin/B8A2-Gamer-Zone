@@ -287,8 +287,232 @@ background-clip: text;
     opacity:70%;
     background: black;
     
-  
+}
+.container-2{
+    background: linear-gradient(rgb(255,66,165) 0%, rgb(255,66,165)100%);
+    height: 600px;
+    margin-top:20px;
+    position: relative;
+    width: 1920px;
+}
+
+.group-1{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    left: 120px;
+    min-height: 581px;
+    position: absolute;
+    top: 80px;
+    width: 684px;
+    margin-left:-20px;
+
+}
+
+
+.group-2{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    min-height: 204px;
+    width: 684px;
+    position: relative;
+    margin-right: 240px;
+    float: right;
     
+
+}
+
+.careers{
+    color: white;
+    font-size: 40px;
+    
+    white-space: nowrap;
+    width: 426px;
+    height:60px ;
+    position: relative;
+    bottom: 20px;
+    font-weight: 700px;
 
 
 }
+.gamer-is-driven-to-c{
+    font-size: 15px;
+    line-height: 30px;
+    min-height: 120px;
+    width: 680px;
+    position: relative;
+    bottom: 40px;
+    color: whitesmoke;
+    font-weight: 700px;
+}
+
+.flex-row-1{
+    align-items: flex-start;
+    display: flex;
+    gap: 97px;
+    height: 240px;
+    margin-top: 32px;
+    min-width: 680px;
+}
+
+.multimedia-artist{
+    letter-spacing: 0;
+    line-height: 40px;
+    min-height: 240px;
+    min-width: 337px;
+    position: relative;
+    bottom: 80px;
+    color:whitesmoke;
+    font-size:15px;
+}
+
+.lisbon-portugal-lis{
+    letter-spacing: 0;
+    line-height: 35px;
+    min-height: 240px;
+    min-width: 246px;
+    text-align: right;
+    position: relative;
+    float: left;
+    margin-left:-200px;
+    bottom: 70px;
+    color: whitesmoke;
+    font-weight: 400px;
+    font-size: 15px;
+}
+
+#position{
+    position: relative;
+    top:200px;
+    float: left;
+    margin-left:-580px;
+    padding: 12px 40px;
+    border-radius: 40px;
+    color: rgb(255,66,165);
+    font-size: 12px;
+}   
+
+#images{
+    position: relative;
+    height: 655px;
+    margin-left: 550px;
+    bottom: 400px;
+    width: 900px;
+    overflow: hidden;
+}
+
+.tail{
+    align-items: center;
+    background-color: #0B0223;
+    min-height: 636px;
+    width: 1900px;
+    
+    
+}
+
+#gamer{
+    margin: 180px;
+    float: left;
+    position: relative;
+    margin-left: 630px;
+    bottom: 60px;
+    padding: 0px;
+}
+.content{
+    color: antiquewhite;
+    position: relative;
+    top:-325px;
+    font-size:30px;
+    float: right;
+    margin-right:1006px;
+    bottom:500px;
+    font-size:40px;
+    
+}
+.headline{
+    display: flex;
+    gap:60px;
+    position:relative;
+    padding:400px;
+    bottom: 800px;
+}
+
+footer{
+    height: 500px;
+    width: 100%;
+    margin-bottom:-2000px;
+}
+
+.head-1{
+    color:blue;
+
+}
+.fa-twitter{
+    color:whitesmoke;
+    font-size: 40px;
+}
+
+.fa-facebook{
+    color: whitesmoke;
+    font-size: 40px;
+}
+
+.fa-youtube{
+    color: whitesmoke;
+    font-size: 40px;
+}
+
+.fa-linkedin-in{
+    color:whitesmoke;
+    font-size: 40px;
+}
+.fa-instagram{
+    color:whitesmoke;
+    font-size: 40px;
+}
+
+.fa-apple{
+    color:whitesmoke;
+    font-size: 40px;
+}
+
+.main-1{
+    color:whitesmoke;
+
+}
+
+.icon{
+    display: flex;
+   
+    gap:40px;
+    position:relative;
+    padding:530px;
+    bottom:1700px;
+}
+
+.main{
+    display: flex;
+    gap:60px;
+    margin-left:430px;
+    position: relative;
+    bottom: 2200px;
+   
+}
+
+.last-1{
+    color: whitesmoke;
+}
+
+.last{
+    display: flex;
+    position: relative;
+    gap: 10px;
+    margin-left:550px;
+    bottom: 2200px;
+}
+.sp{
+    color: rgb(255,66,165);
+}
+    
