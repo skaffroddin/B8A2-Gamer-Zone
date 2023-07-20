@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
+
+
+
+/* navbar */
+
+header {
+    padding: 30px 240px;
+    box-shadow: 0px 1px 15px 0 rgb(221, 219, 219);
+    bottom: 30px;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 60px;
+}
+
+/* Gamer word css */
+h3 {
+    font-size: 35px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-weight: 300px;
+}
+
+/* navbar items css */
+ul>li {
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-size: 14px;
+}
+
+/* Frame.png css */
+.frame {
+    height: 35px;
+    position: relative;
+    margin-left: -90px;
+    position: relative;
+    bottom: -40px;
+}
+
+
+/* Last list item css in navbar */
+.social {
+    position: relative;
+    background-color: rgb(227, 224, 224);
+    border: 0;
+    width: 180px;
+    bottom: 15px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+
+/* youtube icon css */
+.fa-youtube {
+    position: relative;
+    margin-left: -150px;
+    font-size: 25px;
+    bottom: 5px;
+    color: red;
+}
+
+/* tiktok icon css */
+.fa-tiktok {
+    position: relative;
+    font-size: 25px;
+    margin-left: -35px;
+    bottom: 5px;
+}
+
+
+/* Thunder shape backgriond image css(Group 14.png css) */
+#lightbg {
+    position: relative;
+    bottom: 30px;
+    height: 750px;
+    width: 700px;
+}
+
+/* Group 18.png css */
+#garden {
+    position: relative;
+    height: 720px;
+    bottom: 30px;
+}
+
+/* 2ND section css starts from here */
+#part {
+    position: relative;
+    bottom: 500px;
+    float: left;
+    margin-left: 190px;
+}
+
+#goat {
+    font-size: 80px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    color: rgba(249, 72, 222, 1);
+    position: relative;
+    top: 10px;
+    background-image: linear-gradient(rgb(252, 108, 132), darkviolet);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+
+#para1 {
+    font-size: 17px;
+    position: relative;
+    top: 10px;
+    color: #534C64;
+}
+
+#para2 {
+    float: left;
+    margin-left: 1px;
+    position: relative;
+    top: 10px;
+    color: #534C64;
+}
+
+#para3 {
+    white-space: nowrap;
+    float: left;
+    margin-left: -1px;
+    position: relative;
+    top: 10px;
+    color: #534C64;
+}
+
+
+
+button {
+    position: relative;
+    top: 40px;
+}
+
+.btn1 {
+    width: 120px;
+    height: 45px;
+    border-radius: 50px;
+    border: 0;
+    font-size: 17px;
+    background-color: rgb(234, 55, 234);
+    color: white;
+}
+
+
+.btn2 {
+    width: 150px;
+    height: 45px;
+    border-radius: 50px;
+    border: 0;
+    font-size: 17px;
+    background-color: #4EC5F7;
+    color: white;
+}
+
+/* 2ND section ends here */
+
+/* Last part of header section starts from here */
+.lastpart {
+    border: 0;
+    height: 600px;
+    width: 100%;
+    background-color: rgb(249, 249, 249);
+    bottom: 40px;
+    position: relative;
+}
+
+#last {
+    position: relative;
+    float: right;
+    margin-right: 600px;
+    bottom: 200px;
+}
+
+.lasthead {
+    position: relative;
+    float: left;
+    margin-left: 1000px;
+    bottom: 640px;
+    font-size: 45px;
+    background-image: linear-gradient(rgb(252, 108, 132), darkviolet);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+#para4 {
+    position: relative;
+    float: left;
+    margin-left: -350px;
+    bottom: 550px;
+    text-align: right;
+    color: rgba(83, 76, 100, 1);
+}
+
+#btn3 {
+    position: relative;
+    top: -500px;
+    float: right;
+    margin-right: 150px;
+    width: 160px;
+    height: 55px;
+    border-radius: 50px;
+    border: 0;
+    font-size: 17px;
+    background-color: rgba(249, 72, 222, 1);
+    color: white;
+}
+
+#para5 {
+    position: relative;
+    float: left;
+    margin-left: 1180px;
+    bottom: 470px;
+    font-size: 20px;
+
+    color: gray;
+}
+
+#para6 {
+    position: relative;
+    float: left;
+    margin-left: 900px;
+    bottom: 460px;
+    font-size: 30px;
+    color: #534C64;
+    white-space: nowrap;
+}
+
+/* Last part of header section ends here */
+
+.online-game .same {
+    text-align: center;
+}
+.online-game{
+    margin: auto;
+    width: 1044px;
+    height: 821px;
+}
+.inner-text{
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.online-game-container{
+ display: flex;
+
+}
+.online-game-container img{
+    height: 280px;
+    width: 250px;
+}
+.contain{
+    padding: 10px;
+}
+.contain-text{
+    width: 234px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.contain :hover{
+
+    border: 4px solid #F948B2;
+    border-radius: 15px;
+    transition: .3s ease;
+    opacity:70%;
+    background: black;
+    
+  
+    
+
+
+}
